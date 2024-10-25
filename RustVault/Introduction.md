@@ -3,7 +3,7 @@ tags:
   - introduction
 ---
 # What is Rust?
-A compiled programming language known for:
+A compiled, statically typed programming language known for:
 - Safety
 - Concurrency
 - Performance

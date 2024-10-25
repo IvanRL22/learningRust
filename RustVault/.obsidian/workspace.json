@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language basics.md",
+                "file": "Control Flow Constructs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Language basics"
+              "title": "Control Flow Constructs"
             }
           },
           {
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language basics.md",
+                "file": "Random things.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Language basics"
+              "title": "Backlinks for Random things"
             }
           },
           {
@@ -141,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language basics.md",
+                "file": "Random things.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Language basics"
+              "title": "Outgoing links from Random things"
             }
           },
           {
@@ -168,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language basics.md"
+                "file": "Random things.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Language basics"
+              "title": "Outline of Random things"
             }
           }
         ]
@@ -193,10 +193,13 @@
   },
   "active": "de456d3aa0a9a1f9",
   "lastOpenFiles": [
-    "Random things.md",
+    "Syntax and Semantics.md",
+    "Control Flow Constructs.md",
+    "Variables, Constants and Data Types.md",
     "Language basics.md",
-    "Rust.md",
+    "Random things.md",
     "Introduction.md",
+    "Rust.md",
     "Sources.md",
     "Untitled.md",
     "Welcome.md"

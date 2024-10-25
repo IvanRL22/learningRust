@@ -13,3 +13,11 @@ Rocket - a web framework for Rust
 rustlings - Exercises to practice and learn Rust
 
 Lifetime annotations
+
+https://rust-book.cs.brown.edu/
+
+Panic/panicking - I know this is like throwing an exception in Java
+
+Destructuring
+
+Pattern matching
