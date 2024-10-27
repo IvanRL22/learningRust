@@ -76,5 +76,4 @@ fn main() {
 }
 ```
 # if let
-A way to handle values that match one pattern while ignoring the rest.
-#tbd This will make more sense after learning pattern matching I guess
+See [[Pattern Matching and Destructuring#if let]]

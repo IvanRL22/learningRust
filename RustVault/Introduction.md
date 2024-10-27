@@ -17,6 +17,7 @@ It's very interesting for backend development
 Also for Blockchain, but who cares?
 It has a powerful compiler, that catches most of the issues.
 It has first-class support on AWS, Azure and GCP.
+It's an expression-based language #question What are the implications of this?
 
 Rust is *NOT* beginner friendly - But I'm not a beginner anyway.
 Some say that Rust is not difficult, but unfamiliar.
