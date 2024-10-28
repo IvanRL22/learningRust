@@ -229,3 +229,23 @@ impl<T: Display> ToString for T {
 }
 ```
 #todo go back to this and reread to make sure I understood it.
+# Impl blocks
+We've already seen the use of `impl` to implement traits on structs or enums. We've also seen it used to bound generics. But `impl` can also be used to implement behavior in the form of methods. Remember that methods are functions associated to a struct, enum or, as we've already seen, a trait. For instance, here we define a struct and implement a method area:
+```rust
+struct Rectangle {
+    width: u32,
+    height: u32,
+}
+
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
+```
+Everything inside the curly braces after we declare the impl block will be associated with the `Rectangle` type.
+`&self` is be a reference to the instance of the struct of type `Rectangle` that calls the method. This is short for `self: &Self`. Within an `impl`block, `Self` is an alias for the type of the impl block.
+These methods behave like the methods in a Java object. In rust, these are also called *associated functions*.
+There are also associated functions that are not methods: they do not have a `Self`reference as their first parameter, bevause they don't need an instance of the type to work with (like static methods in Java).
+## Methods and Ownership
+#todo Go back [here](https://rust-book.cs.brown.edu/ch05-03-method-syntax.html#methods-and-ownership) and read again after learning about ownership and borrowing

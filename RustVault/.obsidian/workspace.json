@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constructs.md",
+                "file": "Ownership System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Constructs"
+              "title": "Ownership System"
             }
           }
         ],
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "methods",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,12 +116,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "36e13d4e37062a4b",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Constructs.md",
+                "file": "Ownership System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Constructs"
+              "title": "Backlinks for Ownership System"
             }
           },
           {
@@ -193,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,9 +207,10 @@
   },
   "active": "335d4c8d09aa1409",
   "lastOpenFiles": [
-    "Rust.md",
     "Language basics.md",
+    "Ownership System.md",
     "Constructs.md",
+    "Rust.md",
     "Pattern Matching and Destructuring.md",
     "Control Flow Constructs.md",
     "Syntax and Semantics.md",
